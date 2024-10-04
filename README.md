@@ -6,10 +6,6 @@
 <p></p>
 
 
-
-
-
-
 <div align="center" >
   <h1>LinkedIn AI Reply</h1>
   
@@ -41,11 +37,10 @@
 [Chat Interface Overview](https://github.com/user-attachments/assets/3ddcb5f3-9583-4d00-bcf0-2b85db09f139)
 
 
-# Approaches, Solutions, and Alternatives
+# My Approaches, Solutions, and Alternatives
 
 1. **Styling with Shadow DOM**
    - Solution: Used Shadow DOM for styling and isolation.
-   - Alternatives: Not aware of alternative approaches.
 
 2. **Component Injection**
    - Initial Attempt: Injected the component directly into the contenteditable area.
@@ -88,15 +83,14 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
 
 ## UI Development
 
-- Simulated LinkedIn’s static page to avoid slow reloads and improve speed.- React hooks.
+- Simulated LinkedIn’s static page to avoid slow reloads and improve speed.
+- React hooks.
 - No context provider was used (though it would have been beneficial).
 - Implemented one layer of prop drilling and child-to-parent data passing.
 
 
 
-
-
-# Learning Curve and Development Process
+# My Learning Curve and Development Process
 
 * **Previous Experience:**
   * Before this project, I hadn't developed Chrome extensions using React. My experience was mainly with HTML, CSS, JavaScript, and Tailwind CSS for extension development.
@@ -114,7 +108,7 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
   * I spent approximately 2 hours integrating all the functionalities, identifying limitations in my initial approach, and implementing alternative solutions.
 
 * **Other Tasks:**
-  * Video recording and editing took about 1 hour and 40 minutes.
+  * Video recording and editing took about 40 minutes.
   * Creating the README file took about 1 hour.
 
 * **Total Time:**
@@ -125,7 +119,14 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
   Orian (Ollama WebUI) is a Chrome extension that provides quick access to your favorite local Language Model (LLM) directly from your browser. With features like open-source chat integration, mail reply suggestions, and more, it's designed to enhance your browsing experience with AI capabilities.
 </p>
 <p>Here are the working demos:</p>
-![Emsil](https://github.com/user-attachments/assets/a714bbe3-a146-4e7f-b096-da210b653383)
+
+[Email](https://github.com/user-attachments/assets/a714bbe3-a146-4e7f-b096-da210b653383)
+
+<p>Latest version of my extension has better features.</p>
+
+[Chat Interface Overview](https://github.com/KarthikeyaKollu/browserAI.01/assets/108949445/d62073b4-cdde-46dd-8b14-8ba0c46206db)
+
+
 <p>You can find more at <a href="https://github.com/KarthikeyaKollu/Orian-Ollama-WebUI" target="_blank">this GitHub link</a>.</p>
 
 
@@ -133,11 +134,6 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
 ## Folder Structure
 
 ```bash
-wxt.config.ts
-tailwind.config.js
-postcss.config.cjs
-test.py
-README.md
 public/
   ├── wxt.svg
   ├── icon/
@@ -146,8 +142,6 @@ public/
   │   ├── 16.png
   │   ├── 32.png
   │   └── 96.png
-package-lock.json
-package.json
 entrypoints/
   ├── popup/
   │   ├── App.tsx
@@ -171,7 +165,7 @@ entrypoints/
   │       └── InputField.tsx
   └── WriterButton.tsx
   └── background.ts
-tsconfig.json
+
 assets/
   ├── regen.svg
   ├── index.css
@@ -179,4 +173,12 @@ assets/
   ├── send.svg
   ├── react.svg
   └── WriterIcon.svg
+wxt.config.ts
+tsconfig.json
+tailwind.config.js
+postcss.config.cjs
+package-lock.json
+package.json
+test.py
+README.md
 ```
