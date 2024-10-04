@@ -115,21 +115,8 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
 
 * **Total Time:**
   * The entire process took around 6 to 10 hours, with the majority of the time spent on problem-solving, thinking about better solutions, exploring alternatives, and working around limitations.
+ 
 
-<h2>My Extension</h2>
-<p>
-  Orian (Ollama WebUI) is a Chrome extension that provides quick access to your favorite local Language Model (LLM) directly from your browser. With features like open-source chat integration, mail reply suggestions, and more, it's designed to enhance your browsing experience with AI capabilities.
-</p>
-<p>Here are the working demos:</p>
-
-[Email](https://github.com/user-attachments/assets/a714bbe3-a146-4e7f-b096-da210b653383)
-
-<p>Latest version of my extension has better features.</p>
-
-[Chat Interface Overview](https://github.com/KarthikeyaKollu/browserAI.01/assets/108949445/d62073b4-cdde-46dd-8b14-8ba0c46206db)
-
-
-<p>You can find more at <a href="https://github.com/KarthikeyaKollu/Orian-Ollama-WebUI" target="_blank">this GitHub link</a>.</p>
 
 ## Component Tree
 <div align="center">
@@ -188,3 +175,20 @@ package.json
 test.py
 README.md
 ```
+
+<h2>My Extension</h2>
+<p>
+  Orian (Ollama WebUI) is a Chrome extension that provides quick access to your favorite local Language Model (LLM) directly from your browser. With features like open-source chat integration, mail reply suggestions, and more, it's designed to enhance your browsing experience with AI capabilities.
+</p>
+<p>Here are the working demos:</p>
+
+[Email](https://github.com/user-attachments/assets/a714bbe3-a146-4e7f-b096-da210b653383)
+
+<p>Latest version of my extension has better features.</p>
+
+[Chat Interface Overview](https://github.com/KarthikeyaKollu/browserAI.01/assets/108949445/d62073b4-cdde-46dd-8b14-8ba0c46206db)
+
+
+<p>You can find more at <a href="https://github.com/KarthikeyaKollu/Orian-Ollama-WebUI" target="_blank">this GitHub link</a>.</p>
+
+
