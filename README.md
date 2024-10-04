@@ -131,6 +131,10 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
 
 <p>You can find more at <a href="https://github.com/KarthikeyaKollu/Orian-Ollama-WebUI" target="_blank">this GitHub link</a>.</p>
 
+## Component Tree
+<div align="center">
+  <img src="media/tree.png" alt="Banner" />
+</div>
 
 
 ## Folder Structure
