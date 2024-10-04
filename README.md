@@ -183,7 +183,6 @@ tailwind.config.js
 postcss.config.cjs
 package-lock.json
 package.json
-test.py
 README.md
 ```
 
