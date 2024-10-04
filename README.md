@@ -30,9 +30,11 @@
 
 </div>
 
-<div align="center" >
+<div  >
   <h1>WorkingDemo</h1>
 </div>
+
+<p>I need to speed up the video demo to showcase functionalities 1 to 7 in  30 seconds</p>
 
 [Chat Interface Overview](https://github.com/user-attachments/assets/3ddcb5f3-9583-4d00-bcf0-2b85db09f139)
 
