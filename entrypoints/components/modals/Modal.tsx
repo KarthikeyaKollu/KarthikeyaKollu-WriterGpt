@@ -4,7 +4,8 @@ interface ModalProps {
   closeModal: () => void; // Callback function to close the modal.
 }
 
-export const Modal: React.FC<ModalProps> = ({ closeModal }) => {
+
+export const Modal: React.FC<ModalProps> = ({ closeModal}) => {
   useEffect(() => {
     // Disable scrolling on the body when the modal is open
     document.body.style.overflow = 'hidden';

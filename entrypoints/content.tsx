@@ -51,20 +51,27 @@ export default defineContentScript({
     };
 
     // MutationObserver for dynamically added elements
-    const observer = new MutationObserver((mutationsList) => {
-      for (const mutation of mutationsList) {
-        if (mutation.type === "childList" && mutation.addedNodes.length > 0) {
-          mutation.addedNodes.forEach((node) => {
-            if (node instanceof HTMLElement) {
-              const targetElements = node.querySelectorAll<HTMLElement>(".msg-form__message-texteditor");
-              targetElements.forEach((targetElement) => {
-                processElement(targetElement); // Process each target element found.
-              });
-            }
-          });
+const observer = new MutationObserver((mutationsList) => {
+  try {
+    mutationsList.forEach((mutation) => {
+      if (mutation.type !== "childList") return;
+
+      mutation.addedNodes.forEach((node) => {
+        if (!(node instanceof HTMLElement)) return;
+
+        const targetElements = node.querySelectorAll<HTMLElement>(".msg-form__message-texteditor");
+        if (targetElements.length === 0) {
+          console.warn("No '.msg-form__message-texteditor' elements found in the added node.");
+          return;
         }
-      }
+
+        targetElements.forEach(processElement); // Process each target element found.
+      });
     });
+  } catch (error) {
+    console.error("Error in MutationObserver:", error);
+  }
+});
 
     // Start observing the document body for added nodes
     observer.observe(document.body, {

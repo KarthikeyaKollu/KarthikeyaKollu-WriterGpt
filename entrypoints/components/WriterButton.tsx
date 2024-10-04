@@ -17,8 +17,17 @@ const WriterButton: React.FC<WriterButtonProps> = ({ ele }) => {
     };
 
     useEffect(() => {
-        targetElementRef.current = ele.querySelector(".msg-form__contenteditable") as HTMLElement; // Select the contenteditable element.
-        const targetElement = targetElementRef.current;
+      const contentEditable = ele.querySelector<HTMLElement>(".msg-form__contenteditable");
+
+      if (!contentEditable) {
+        console.warn("No '.msg-form__contenteditable' element found.");
+        return;
+      }
+      
+        // targetElementRef.current = contentEditable;
+      
+
+        const targetElement = contentEditable;;
 
         if (targetElement) {
             // Check if the target element is focused initially
