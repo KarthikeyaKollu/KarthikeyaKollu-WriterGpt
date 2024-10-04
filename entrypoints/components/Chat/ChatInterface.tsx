@@ -19,7 +19,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ closeModal }) => {
 
     // Function to handle user message submission.
     const handleUserSubmit = (content: string) => {
-        if (content.trim() && messages.length < 2) { // Checks for valid content and limits number of messages.
+        if (content.trim() && messages.length < 2) { // Checks for valid content and limits number of messages(2).
             setMessages(prev => [...prev, { type: 'user', content }]); // Add user message to the message list.
             setShowButtons(true); // Show action buttons after the first user message.
 
