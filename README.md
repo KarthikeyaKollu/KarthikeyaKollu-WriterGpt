@@ -73,6 +73,17 @@
    - Solution: Added event listeners to show the component on input focus and hide it on blur.
    - Timing: The component appears within 100ms on focus and disappears after 500ms on blur. The 500ms delay ensures there’s enough time to interact with the component before it disappears.
 
+8. **Bugs**
+   - Issue: There are two  bugs that have been intentionally left unfixed 🐞.
+   - Solution: These bugs can be efficiently addressed later using `useContext` and some UI changes.
+   - Plan: We'll fix the bugs together in the next stage meeting and have some fun while doing it😅.
+
+     
+
+
+   
+
+
 These were the primary challenges I focused on; the rest of the logic and UI implementation is straightforward.
 
 # Tools I Used
