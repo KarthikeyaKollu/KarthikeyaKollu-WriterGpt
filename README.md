@@ -96,7 +96,7 @@ These were the primary challenges I focused on; the rest of the logic and UI imp
 
 * **Previous Experience:**
   * Before this project, I hadn't developed Chrome extensions using React. My experience was mainly with HTML, CSS, JavaScript, and Tailwind CSS for extension development.
-  * I had only built one Chrome extension prior, called "Orain" which is now used by over 300 developers.
+  * I had only built one Chrome extension prior, called "Orain" which is now used by over 300+ developers.
 
 * **New Framework (WXT):**
   * WXT was new to me, so I spent around 1 hour understanding how it works and another hour setting up the project with React.
